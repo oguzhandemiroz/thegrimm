@@ -1,0 +1,76 @@
+#container{
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+#level{
+    width: 140px;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+button.levelUp{
+    width: 80px;
+    height: 35px;
+    border: 2px solid #333333;
+    outline: none;
+    cursor: pointer;
+    font-size: 11px;
+    background: transparent;
+    margin-top: 10px;
+}
+.stats{
+    margin: 10px auto;
+    padding: 15px;
+}
+.stats table{
+    width: 400px;
+    font-size: 17px;
+    margin: 5px auto;
+}
+.stats table tr{
+    height: 40px;
+}
+.stats table td, .stats table th{
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.stats table td button{
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 23px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: #8A0707;
+    visibility: hidden;
+}
+.stats table td button:active{
+     background: #4a0707;
+ }
+.stats table td button:disabled{
+      background: #333333;
+  }
+.healthPoint{
+}
+.healthPoint div{
+    height: auto;
+    margin-bottom: 20px;
+}
+.healthPoint span{
+    color: #8A0707;
+    font-weight: bold;
+    font-size: 17px;
+}
+.healthPoint .Mage{
+    color: green;
+}
+.healthPoint .Asas{
+    color: blue;
+}

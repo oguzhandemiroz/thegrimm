@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Grimm's Online - Battle Engine</title>
+        <link rel="stylesheet" href="assets/css/engine.css" type="text/css">
+        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/engine.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>BATTLE SIMULATOR</h2>
+            <div class="myChar">
+                <div class="portrait">
+                    <span class="charName">Sivaslı</span>
+                    <img src="assets/img/Diana_11.jpg" alt="">
+                </div>
+                <div class="healtBar">
+                    <span class="healtRate1" data-percent="100">11432</span>
+                </div>
+                <!--<div class="hit"><button onclick="attack('.healtRate1');">Attack</button></div>-->
+            </div>
+            <div class="vs"><img src="assets/img/vs.png" alt=""></div>
+            <span class="hit">
+                <button onclick="startAttack();">Start</button>
+            </span>
+            <div class="enemyChar">
+                <div class="portrait">
+                    <span class="charName">Sivassız</span>
+                    <img src="assets/img/Jhin_2.jpg" alt="">
+                </div>
+                <div class="healtBar">
+                    <span class="healtRate2" data-percent="100">1233</span>
+                </div>
+                <!--<div class="hit"><button onclick="attack('.healtRate2');">Attack</button></div>-->
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>

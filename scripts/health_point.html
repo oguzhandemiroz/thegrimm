@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grimm's Online - Health Point Script</title>
+    <link rel="stylesheet" href="../assets/css/health_point.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+    <script src="../assets/js/jquery-3.1.1.min.js"></script>
+    <script src="../assets/js/health_point.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="form">
+        <input type="text" name="level" id="level" maxlength=2 autocomplete="off"/><br>
+        <button class="levelUp">Level</button>
+    </div>
+    <div class="stats">
+        <span class="point"><b>Total Point: </b><span class="pointCount">0</span></span>
+        <table cellspacing="0">
+            <tr>
+                <th>Strength: </th>
+                <td class="totalPoint">0</td>
+                <td><button data-point=1 name="str">+</button></td>
+            </tr>
+            <tr>
+                <th>Durability: </th>
+                <td class="totalPoint">0</td>
+                <td><button data-point=1 data-hp=130 name="dur">+</button></td>
+            </tr>
+            <tr>
+                <th>Intelligence: </th>
+                <td class="totalPoint">0</td>
+                <td><button data-point=1 name="int">+</button></td>
+            </tr>
+            <tr>
+                <th>Dexterity: </th>
+                <td class="totalPoint">0</td>
+                <td><button data-point=1 name="dex">+</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="healthPoint">
+        <div class="givenUs">Given by us => <br>
+            Warrior: <span class="Warrior">0</span>hp<br>Mage: <span class="Mage">0</span>hp<br>Asas: <span class="Asas">0</span>hp
+        </div>
+        <div class="givenStat" style="visibility: hidden;">Given by stat => <br>
+            Warrior: <span class="Warrior">0</span>hp<br>Mage: <span class="Mage">0</span>hp<br>Asas: <span class="Asas">0</span>hp
+        </div>
+        <div class="total">Total Health Point => <br>
+            Warrior: <span class="Warrior">0</span>hp<br>Mage: <span class="Mage">0</span>hp<br>Asas: <span class="Asas">0</span>hp
+        </div>
+    </div>
+</div>
+</body>
+</html>

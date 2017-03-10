@@ -1,0 +1,68 @@
+.container{
+    width: 700px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h2{
+    margin: 30px 0;
+}
+.myChar{
+    float: left;
+}
+.enemyChar{
+    float: right;
+}
+.portrait > img{
+    width: 220px;
+}
+.clear{
+    clear: both;
+}
+.vs{
+    width: inherit;
+    position: fixed;
+    margin-top: 100px;
+}
+.vs > img{
+    width: 80px;
+}
+.healtBar{
+    width: inherit;
+    height: 25px;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid #4a0707;
+}
+[class*=healtRate]{
+    width: 100%;
+    background-color: #8A0707;
+    font-size: 12px;
+    line-height: 25px;
+    color: #ECECEC;
+    display: block;
+    transition: width 0.5s, height 0.5s;
+    -webkit-transition: width 0.5s, height 0.5s;
+    -moz-transition: width 0.5s, height 0.5s;
+}
+.hit button{
+    margin: 10px;
+    width: 100px;
+    height:40px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.charName{
+    position: absolute;
+    width: 220px;
+    display: block;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e3e3e3;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,11 @@
+Factors affecting health rate:
+* D = Durability (Stat)
+* Base = Base HP
+* B = Bonus
+* P = Passives
+* A = Actives
+
+Base = X
+D = Y
+DRate = D * DPoint
+= HP = (Base + DRate) + (%P * HP) + (%B * HP) + (%A * HP)
